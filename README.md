@@ -72,7 +72,7 @@ Install dependencies:
 npm install
 
 
-Run the launcher:
+### Run the launcher:
 
 ## ⚙️ Bash
 
@@ -85,7 +85,7 @@ To package the application into a standalone Windows executable (.exe):
 npm run dist
 The output executable will be generated inside the /dist directory.
 
-📄 License
+## 📄 License
 This project is created strictly for educational and portfolio demonstration purposes. All Assassin's Creed assets, logos, and trademarks belong to Ubisoft.
 
 
