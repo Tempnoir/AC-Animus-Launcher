@@ -44,32 +44,40 @@ This project heavily leveraged **Generative AI (Large Language Models)** as a pr
 ### Executable Context Management (`cwd`)
 When launching external binaries on Windows through Electron, relative working paths can occasionally default to the launcher's root directory, causing games to misplace local user data or save files. This project resolves that issue by extracting the target binary's parent directory and setting explicit `cwd` execution options during process initialization:
 
-javascript
+##javascript
+
 const { spawn } = require('child_process');
 const path = require('path');
 
 const gameDirectory = path.dirname(gamePath);
 spawn(gamePath, [], { cwd: gameDirectory, detached: true });
 
-Getting Started
-Prerequisites
+###Getting Started
+##Prerequisites
 Node.js (v16 or higher recommended)
 
-npm
+##npm
 
 Local Installation
 Clone the repository:
 
-Bash
+##Bash
 git clone [https://github.com/Tempnoir/ac-animus-launcher.git](https://github.com/YOUR-USERNAME/ac-animus-launcher.git)
+
 cd ac-animus-launcher
+
+
 Install dependencies:
 
-Bash
+##Bash
+
 npm install
+
+
 Run the launcher:
 
-Bash
+##Bash
+
 npm start
 
 📦 Building the Executable
