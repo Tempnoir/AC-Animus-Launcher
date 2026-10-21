@@ -1,1 +1,24 @@
+# 🎨 Assets & Customization Guide
 
+This directory holds the media assets for the Animus Launcher. To maintain open-source compliance, default copyrighted media files are excluded from this repository.
+
+To customize the default launcher UI with your own background art and audio before compiling, place your files in this folder using the exact filenames listed below:
+
+---
+
+## 🎵 Audio Files
+- `LauncherAmbientMusic.mp3` — Background loop played during launcher idle state.
+
+
+---
+
+## 🖼 Image & Video Files
+- `ac3.jpg` — cover art used for the Assassin's Creed 3 sequence panel.
+- `ac4.jpg` — cover art used for the Assassin's Creed 4: Black Flag sequence panel.
+- `acfreedomcry.jpg` — cover art used for the Assassin's Creed Freedom Cry sequence panel.
+- `acliberation.jpg` — cover art used for the Assassin's Creed Liberation sequence panel.
+
+
+---
+
+> **Note:** If no custom media is supplied, the launcher will automatically fall back to the silent/minimal UI layout.
